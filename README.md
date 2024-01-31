@@ -29,11 +29,11 @@ The `footer` is optional. The [Commit Message Footer](#commit-footer) format des
   │       │             │
   │       │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
   │       │
-  │       └─⫸ Commit Scope: animations|bazel|benchpress|common|compiler|compiler-cli|core|
-  │                          elements|forms|http|language-service|localize|platform-browser|
-  │                          platform-browser-dynamic|platform-server|router|service-worker|
-  │                          upgrade|zone.js|packaging|changelog|docs-infra|migrations|
-  │                          devtools
+  │       └─⫸ Commit Scope: controllers|models|services|middlewares|
+  │                          packages|docker|kubernetes|configuration|
+  │                          
+  │                          
+  │                          
   │
   └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
 ```
