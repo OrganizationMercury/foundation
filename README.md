@@ -1,7 +1,5 @@
 ## <a name="commit"></a> Commit Message Format
 
-*This specification is inspired by and supersedes the [AngularJS commit message format][commit-message-format].*
-
 We have very precise rules over how our Git commit messages must be formatted.
 This format leads to **easier to read commit history**.
 
