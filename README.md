@@ -66,6 +66,7 @@ The following is the list of supported scopes:
 * `middlewares`
 * `configuration`
 * `packages`
+* `DI`
 * `docker`
 * `kubernetes`
 
