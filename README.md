@@ -29,8 +29,8 @@ The `footer` is optional. The [Commit Message Footer](#commit-footer) format des
   │       │             │
   │       │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
   │       │
-  │       └─⫸ Commit Scope: controllers|models|services|middlewares|
-  │                          packages|docker|kubernetes|configuration|
+  │       └─⫸ Commit Scope: controllers|models|services|middlewares|repositories|
+  │                          packages|docker|kubernetes|configuration|DI|
   │                          
   │                          
   │                          
@@ -67,6 +67,7 @@ The following is the list of supported scopes:
 * `configuration`
 * `packages`
 * `DI`
+* `repositories`
 * `docker`
 * `kubernetes`
 
