@@ -35,7 +35,7 @@ The `footer` is optional. The [Commit Message Footer](#commit-footer) format des
   │                          
   │                          
   │
-  └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
+  └─⫸ Commit Type: build|chore|ci|docs|feat|fix|perf|refactor|test
 ```
 
 The `<type>` and `<summary>` fields are mandatory, the `(<scope>)` field is optional.
@@ -46,6 +46,7 @@ The `<type>` and `<summary>` fields are mandatory, the `(<scope>)` field is opti
 Must be one of the following:
 
 * **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+* **chore**: updating grunt tasks etc; no production code change
 * **ci**: Changes to our CI configuration files and scripts (examples: CircleCi, SauceLabs)
 * **docs**: Documentation only changes
 * **feat**: A new feature
